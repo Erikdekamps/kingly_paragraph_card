@@ -1,6 +1,6 @@
 {
-    "name": "erikdekamps/kingly_paragraph_text",
-    "description": "A Drupal recipe that configures a Kingly text paragraph.",
+    "name": "erikdekamps/kingly_paragraph_card",
+    "description": "A Drupal recipe that configures a Kingly card paragraph.",
     "keywords": ["recipe", "Drupal base install", "best practices", "simple install"],
     "type": "drupal-recipe",
     "license": "GPL-2.0-or-later",
