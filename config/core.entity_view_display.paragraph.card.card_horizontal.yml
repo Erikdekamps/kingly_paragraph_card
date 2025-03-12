@@ -1,0 +1,97 @@
+uuid: 00ed4219-4480-407c-8c2f-480eb18cada4
+langcode: nl
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.card_horizontal
+    - field.field.paragraph.card.field_card_image
+    - field.field.paragraph.card.field_card_link
+    - field.field.paragraph.card.field_card_title
+    - field.field.paragraph.card.paragraph_view_mode
+    - paragraphs.paragraphs_type.card
+  module:
+    - field_group
+    - link
+third_party_settings:
+  field_group:
+    group_left:
+      children:
+        - field_card_image
+      label: Left
+      parent_name: ''
+      region: content
+      weight: 0
+      format_type: html_element
+      format_settings:
+        classes: card-column-left
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+    group_right:
+      children:
+        - field_card_title
+        - field_card_link
+      label: Right
+      parent_name: ''
+      region: content
+      weight: 1
+      format_type: html_element
+      format_settings:
+        classes: card-column-right
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+_core:
+  default_config_hash: 3azTWO-8BFRx9Yqc4SLKgteAJNRFRO30wiMTjHPitWQ
+id: paragraph.card.card_horizontal
+targetEntityType: paragraph
+bundle: card
+mode: card_horizontal
+content:
+  field_card_image:
+    type: entity_reference_entity_view
+    label: visually_hidden
+    settings:
+      view_mode: card_teaser
+      link: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_card_link:
+    type: link
+    label: visually_hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: '0'
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_card_title:
+    type: string
+    label: visually_hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  breadcrumbs: true
+  paragraph_view_mode: true
+  search_api_excerpt: true

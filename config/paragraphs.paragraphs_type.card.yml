@@ -1,0 +1,12 @@
+uuid: bc4a9fef-fc20-468d-bc0b-e3a0dbafcf12
+langcode: nl
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: HMWgg-yDvxndF80IBvsFv5Vhhggk5arL3IlNPED5QVU
+id: card
+label: Card
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

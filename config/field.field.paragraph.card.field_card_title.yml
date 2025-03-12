@@ -1,0 +1,21 @@
+uuid: 73fdfe15-0763-4aee-ac71-51ad27612e00
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_card_title
+    - paragraphs.paragraphs_type.card
+_core:
+  default_config_hash: O_uTxQGzuUGV5HJ6-KfzsosifwLUo-vbiSTFxAjhsDY
+id: paragraph.card.field_card_title
+field_name: field_card_title
+entity_type: paragraph
+bundle: card
+label: 'Card title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

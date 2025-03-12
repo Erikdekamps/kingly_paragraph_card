@@ -1,0 +1,60 @@
+uuid: 466d5044-a07c-41e7-8c2e-c0e0a6c87aab
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.card.field_card_image
+    - field.field.paragraph.card.field_card_link
+    - field.field.paragraph.card.field_card_title
+    - field.field.paragraph.card.paragraph_view_mode
+    - paragraphs.paragraphs_type.card
+  module:
+    - link
+    - media_library
+    - paragraph_view_mode
+_core:
+  default_config_hash: 3QwrYzWjbi6Wco-jC6Y3lCOug6_MNwYOvf63whCz6FU
+id: paragraph.card.default
+targetEntityType: paragraph
+bundle: card
+mode: default
+content:
+  field_card_image:
+    type: media_library_widget
+    weight: 0
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+  field_card_link:
+    type: link_default
+    weight: 2
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_card_title:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  paragraph_view_mode:
+    type: paragraph_view_mode
+    weight: 3
+    region: content
+    settings:
+      view_modes:
+        card_horizontal: card_horizontal
+        card_vertical: card_vertical
+        default: '0'
+      default_view_mode: card_horizontal
+      form_mode_bind: true
+      apply_to_preview: true
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

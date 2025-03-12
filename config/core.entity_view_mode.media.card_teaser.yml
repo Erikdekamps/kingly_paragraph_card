@@ -1,0 +1,13 @@
+uuid: 7d92d0c6-b8e2-40e0-83c5-37cbf059433b
+langcode: nl
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: BJKf79qcMTT_6KEnitTVSyCl5Lgktz6U99Hl0MyiUKk
+id: media.card_teaser
+label: 'Card Teaser'
+description: ''
+targetEntityType: media
+cache: true

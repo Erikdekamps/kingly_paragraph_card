@@ -1,0 +1,13 @@
+uuid: 79ea68f6-17ac-4be5-a352-cbe170671a26
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: sqQot-Nsxd2m7cTvu_50CyxER7hVNzIxbBoE7IVoE5o
+id: paragraph.card_horizontal
+label: 'Card horizontal'
+description: 'Displays the card image on the left and the card content on the right.'
+targetEntityType: paragraph
+cache: true

@@ -1,0 +1,11 @@
+name: 'Kingly paragraph card'
+type: 'Site'
+description: Configures a Kingly card paragraph.
+
+install:
+  - paragraphs
+  - field_group
+  - paragraph_view_mode
+
+config:
+  strict: false
