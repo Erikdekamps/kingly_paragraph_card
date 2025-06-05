@@ -9,6 +9,7 @@
         "drupal/field_group": "^3.0",
         "drupal/pathauto": "^1.13",
         "drupal/paragraph_view_mode": "^3.2",
+        "erikdekamps/kingly_page": "dev-main",
         "erikdekamps/kingly_sdc": "dev-main"
     }
 }
