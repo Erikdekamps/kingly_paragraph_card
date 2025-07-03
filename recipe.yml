@@ -7,6 +7,7 @@ install:
   - field_group
   - paragraph_view_mode
   - pathauto
+  - lazy
 
 config:
   strict: false
