@@ -4,8 +4,6 @@ dependencies:
   module:
     - paragraph_view_mode
     - paragraphs
-_core:
-  default_config_hash: ATz3I7G5eOKFP9k8Q1LcFBZDGv-N4ii2R5gdY0iSd1w
 id: paragraph.paragraph_view_mode
 field_name: paragraph_view_mode
 entity_type: paragraph

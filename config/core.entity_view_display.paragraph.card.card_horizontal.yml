@@ -54,8 +54,6 @@ third_party_settings:
         attributes: ''
         effect: none
         speed: fast
-_core:
-  default_config_hash: 3azTWO-8BFRx9Yqc4SLKgteAJNRFRO30wiMTjHPitWQ
 id: paragraph.card.card_horizontal
 targetEntityType: paragraph
 bundle: card

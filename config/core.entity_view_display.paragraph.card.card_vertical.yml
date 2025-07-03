@@ -10,8 +10,6 @@ dependencies:
     - paragraphs.paragraphs_type.card
   module:
     - link
-_core:
-  default_config_hash: PRyGvZklOgJ9du-nvzPXmw8KoWSclKze2cI2afGY2po
 id: paragraph.card.card_vertical
 targetEntityType: paragraph
 bundle: card

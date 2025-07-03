@@ -3,8 +3,6 @@ status: true
 dependencies:
   module:
     - media
-_core:
-  default_config_hash: BJKf79qcMTT_6KEnitTVSyCl5Lgktz6U99Hl0MyiUKk
 id: media.card_teaser
 label: 'Card Teaser'
 description: ''

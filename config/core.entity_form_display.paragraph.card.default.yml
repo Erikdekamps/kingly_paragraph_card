@@ -11,8 +11,6 @@ dependencies:
     - link
     - media_library
     - paragraph_view_mode
-_core:
-  default_config_hash: 3QwrYzWjbi6Wco-jC6Y3lCOug6_MNwYOvf63whCz6FU
 id: paragraph.card.default
 targetEntityType: paragraph
 bundle: card
