@@ -3,8 +3,6 @@ status: true
 dependencies:
   module:
     - focal_point
-_core:
-  default_config_hash: G0fhZHM5AsuY3k0FYxOUYuJfS2CzQJ7dxS_EqRAvvpY
 name: w1200
 label: w1200
 effects:

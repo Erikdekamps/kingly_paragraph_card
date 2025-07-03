@@ -9,8 +9,6 @@ dependencies:
   module:
     - lazy
     - svg_image
-_core:
-  default_config_hash: '-dqyTj2-0DwltWnGuNP0wN0-d1MO_sNxKsdIrfeZKt4'
 id: media.image.card_teaser
 targetEntityType: media
 bundle: image

@@ -9,8 +9,6 @@ dependencies:
     - paragraphs.paragraphs_type.card
   module:
     - link
-_core:
-  default_config_hash: OF_Tyfy7DH5y_eFtDapqy1jwflpjY12MXCI95FCojhw
 id: paragraph.card.default
 targetEntityType: paragraph
 bundle: card
