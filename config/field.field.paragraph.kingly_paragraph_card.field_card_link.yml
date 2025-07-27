@@ -1,19 +1,24 @@
-# Updates the field instance to attach the title field to the new 'kingly_paragraph_card' bundle.
+# file: config/install/field.field.paragraph.kingly_paragraph_card.field_card_link.yml
+# Attaches the link field to the Kingly Card paragraph type.
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_card_title
+    - field.storage.paragraph.field_card_link
     - paragraphs.paragraphs_type.kingly_paragraph_card
-id: paragraph.kingly_paragraph_card.field_card_title
-field_name: field_card_title
+  module:
+    - link
+id: paragraph.kingly_paragraph_card.field_card_link
+field_name: field_card_link
 entity_type: paragraph
 bundle: kingly_paragraph_card
-label: 'Card title'
+label: 'Card link'
 description: ''
-required: true
+required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
-settings: {  }
-field_type: string
+settings:
+  title: 2
+  link_type: 17
+field_type: link
