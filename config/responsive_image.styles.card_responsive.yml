@@ -1,0 +1,27 @@
+# file: config/responsive_image.style.card_responsive.yml
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.card_1280
+    - image.style.card_1800
+    - image.style.card_768
+    - image.style.card_991
+  theme:
+    - kingly_minimal
+id: card_responsive
+label: 'Card (Responsive)'
+image_style_mappings:
+  -
+    image_mapping_type: sizes
+    image_mapping:
+      sizes: 100vw
+      sizes_image_styles:
+        - card_1800
+        - card_1280
+        - card_991
+        - card_768
+    breakpoint_id: kingly_minimal.xl
+    multiplier: 1x
+breakpoint_group: kingly_minimal
+fallback_image_style: card_768

@@ -10,6 +10,7 @@ install:
   - pathauto
   - lazy
   - options
+  - responsive_image
 
 config:
   strict: false
