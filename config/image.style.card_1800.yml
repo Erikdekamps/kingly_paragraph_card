@@ -7,16 +7,16 @@ dependencies:
 name: card_1800
 label: 'Card (1800w)'
 effects:
-  a4692861-9772-46ac-9026-30f6831c3b2f:
-    uuid: a4692861-9772-46ac-9026-30f6831c3b2f
+  09cf4cfd-7a0e-41ed-8b7e-c927860bc7cc:
+    uuid: 09cf4cfd-7a0e-41ed-8b7e-c927860bc7cc
     id: focal_point_scale_and_crop
     weight: 1
     data:
       width: 1800
       height: 1013
       crop_type: focal_point
-  e1a547a7-f2ff-4046-8cff-7a439e95037c:
-    uuid: e1a547a7-f2ff-4046-8cff-7a439e95037c
+  f2e5bbf4-89f8-4fda-b69e-e6790f1d7bbe:
+    uuid: f2e5bbf4-89f8-4fda-b69e-e6790f1d7bbe
     id: image_convert
     weight: 2
     data:
