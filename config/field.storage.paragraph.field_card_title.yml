@@ -1,4 +1,4 @@
-# file: config/install/field.storage.paragraph.field_card_title.yml
+# file: config//field.storage.paragraph.field_card_title.yml
 # Defines the database schema for the card's title field.
 langcode: en
 status: true

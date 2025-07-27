@@ -1,4 +1,4 @@
-# file: config/install/field.storage.paragraph.field_card_link.yml
+# file: config//field.storage.paragraph.field_card_link.yml
 # Defines the database schema for the card's link field.
 langcode: en
 status: true
