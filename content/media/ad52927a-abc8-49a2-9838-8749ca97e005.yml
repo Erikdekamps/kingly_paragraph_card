@@ -1,11 +1,11 @@
 _meta:
   version: '1.0'
   entity_type: media
-  uuid: 2d715656-9e5a-4e2d-8318-74bf02d028da
+  uuid: ad52927a-abc8-49a2-9838-8749ca97e005
   bundle: image
   default_langcode: en
   depends:
-    7e2bb613-bb70-4a80-a25b-6614f32b1e99: file
+    df8afe7d-c508-499a-aa7c-c170b88dc7e0: file
 default:
   status:
     -
@@ -15,10 +15,10 @@ default:
       target_id: 1
   name:
     -
-      value: 2.jpg
+      value: 6.jpg
   created:
     -
-      value: 1753616435
+      value: 1753628259
   revision_translation_affected:
     -
       value: true
@@ -29,8 +29,8 @@ default:
       pathauto: 0
   field_media_image:
     -
-      entity: 7e2bb613-bb70-4a80-a25b-6614f32b1e99
-      alt: 'A couch'
+      entity: df8afe7d-c508-499a-aa7c-c170b88dc7e0
+      alt: Kitchen
       title: ''
       width: 1920
       height: 1080
