@@ -1,0 +1,20 @@
+# Defines the database schema for the new body field.
+# This field will store long, formatted text for the card's content.
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+id: paragraph.field_card_body
+field_name: field_card_body
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

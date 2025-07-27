@@ -1,0 +1,19 @@
+# Updates the field instance to attach the title field to the new 'kingly_paragraph_card' bundle.
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_card_title
+    - paragraphs.paragraphs_type.kingly_paragraph_card
+id: paragraph.kingly_paragraph_card.field_card_title
+field_name: field_card_title
+entity_type: paragraph
+bundle: kingly_paragraph_card
+label: 'Card title'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

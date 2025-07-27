@@ -1,0 +1,61 @@
+# Updates the default view display for the 'kingly_paragraph_card' bundle.
+# All fields are now managed by the SDC template, so we simply make them
+# available to Twig by ensuring they are not hidden. Field formatters are
+# set to basic defaults as the SDC handles the final markup.
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.kingly_paragraph_card.field_card_body
+    - field.field.paragraph.kingly_paragraph_card.field_card_image
+    - field.field.paragraph.kingly_paragraph_card.field_card_link
+    - field.field.paragraph.kingly_paragraph_card.field_card_title
+    - field.field.paragraph.kingly_paragraph_card.field_card_variant
+    - paragraphs.paragraphs_type.kingly_paragraph_card
+  module:
+    - link
+    - text
+id: paragraph.kingly_paragraph_card.default
+targetEntityType: paragraph
+bundle: kingly_paragraph_card
+mode: default
+content:
+  field_card_body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_card_image:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_card_link:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_card_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_card_variant: true
+  search_api_excerpt: true
