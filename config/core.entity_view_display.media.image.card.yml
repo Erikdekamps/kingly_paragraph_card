@@ -21,10 +21,10 @@ content:
       responsive_image_style: card_responsive
       image_link: ''
       image_loading:
-        attribute: lazy
+        attribute: eager
     third_party_settings:
       lazy:
-        lazy_image: '1'
+        lazy_image: '0'
         placeholder_style: ''
         data_uri: false
     weight: 0
