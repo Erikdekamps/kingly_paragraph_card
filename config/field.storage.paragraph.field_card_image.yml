@@ -1,4 +1,6 @@
-langcode: nl
+# file: config//field.storage.paragraph.field_card_image.yml
+# Defines the database schema for the card's image reference field.
+langcode: en
 status: true
 dependencies:
   module:

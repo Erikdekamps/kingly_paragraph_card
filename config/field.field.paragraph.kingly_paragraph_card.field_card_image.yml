@@ -1,14 +1,15 @@
-langcode: nl
+# Updates the field instance to attach the image field to the new 'kingly_paragraph_card' bundle.
+langcode: en
 status: true
 dependencies:
   config:
     - field.storage.paragraph.field_card_image
     - media.type.image
-    - paragraphs.paragraphs_type.card
-id: paragraph.card.field_card_image
+    - paragraphs.paragraphs_type.kingly_paragraph_card
+id: paragraph.kingly_paragraph_card.field_card_image
 field_name: field_card_image
 entity_type: paragraph
-bundle: card
+bundle: kingly_paragraph_card
 label: 'Card image'
 description: ''
 required: false
