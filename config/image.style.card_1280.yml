@@ -7,16 +7,16 @@ dependencies:
 name: card_1280
 label: 'Card (1280w)'
 effects:
-  68916d1f-889c-4a34-a719-715103417088:
-    uuid: 68916d1f-889c-4a34-a719-715103417088
+  e1f2a3b4-c5d6-4e7f-8a9b-0c1d2e3f4a5b:
+    uuid: e1f2a3b4-c5d6-4e7f-8a9b-0c1d2e3f4a5b
     id: focal_point_scale_and_crop
     weight: 1
     data:
       width: 1280
       height: 720
       crop_type: focal_point
-  3e7a0273-0498-4223-9527-31952a65a32a:
-    uuid: 3e7a0273-0498-4223-9527-31952a65a32a
+  f2a3b4c5-d6e7-4f8a-9b0c-1d2e3f4a5b6c:
+    uuid: f2a3b4c5-d6e7-4f8a-9b0c-1d2e3f4a5b6c
     id: image_convert
     weight: 2
     data:
