@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 9b15e664-6f22-4941-9617-7de2b28a4e9c
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 1800x1012.png
+  uri:
+    -
+      value: 'public://2025-07/1800x1012_0.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 6773
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1753627971
