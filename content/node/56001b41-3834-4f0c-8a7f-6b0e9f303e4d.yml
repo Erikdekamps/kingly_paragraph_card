@@ -1,0 +1,79 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 56001b41-3834-4f0c-8a7f-6b0e9f303e4d
+  bundle: kingly_page
+  default_langcode: en
+  depends:
+    2d715656-9e5a-4e2d-8318-74bf02d028da: media
+    3f112afd-c256-417f-a1a6-d82832d179fd: node
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Card paragraph'
+  created:
+    -
+      value: 1753616425
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /card-paragraph
+      langcode: en
+      pathauto: 1
+  field_content:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 6a4462f3-a5ec-43a9-9b75-5adcdbcce01d
+          bundle: kingly_paragraph_card
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1753616442
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: null
+                  region: null
+          revision_translation_affected:
+            -
+              value: true
+          field_card_body:
+            -
+              value: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi risus odio, condimentum non bibendum sit amet, rhoncus eu magna. Nunc scelerisque efficitur turpis pellentesque hendrerit. Pellentesque hendrerit dictum tristique. Integer maximus dolor at eros elementum, eu consequat mi tristique. Donec viverra nibh magna, ac posuere ante sollicitudin vel. Aenean imperdiet aliquet mauris. Curabitur sit amet tincidunt magna. Proin quis viverra magna. Nulla elementum, eros et aliquet tempus, purus nulla lobortis lectus, vel lobortis eros mi ac felis. Praesent tempus luctus dignissim. Curabitur libero magna, vehicula sed ligula pharetra, varius vehicula velit.</p>'
+              format: basic_html
+          field_card_image:
+            -
+              entity: 2d715656-9e5a-4e2d-8318-74bf02d028da
+          field_card_link:
+            -
+              target_uuid: 3f112afd-c256-417f-a1a6-d82832d179fd
+              title: 'A link to home'
+              options: {  }
+          field_card_variant:
+            -
+              value: vertical
