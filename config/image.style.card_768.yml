@@ -7,16 +7,16 @@ dependencies:
 name: card_768
 label: 'Card (768w)'
 effects:
-  0852e057-789e-4171-a20d-777085c88c03:
-    uuid: 0852e057-789e-4171-a20d-777085c88c03
+  de71c0b8-9b88-4442-9937-238d58e39668:
+    uuid: de71c0b8-9b88-4442-9937-238d58e39668
     id: focal_point_scale_and_crop
     weight: 1
     data:
       width: 768
       height: 432
       crop_type: focal_point
-  e123a49a-79b8-4c91-948f-3d1f05452f4c:
-    uuid: e123a49a-79b8-4c91-948f-3d1f05452f4c
+  a9b1d7d8-ba9f-4b09-983e-a10c2834c56e:
+    uuid: a9b1d7d8-ba9f-4b09-983e-a10c2834c56e
     id: image_convert
     weight: 2
     data:

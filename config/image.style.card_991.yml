@@ -7,16 +7,16 @@ dependencies:
 name: card_991
 label: 'Card (991w)'
 effects:
-  013e8954-41b4-4c7b-b056-b7e616f73752:
-    uuid: 013e8954-41b4-4c7b-b056-b7e616f73752
+  74c1a539-7f31-4195-9733-415893d50f04:
+    uuid: 74c1a539-7f31-4195-9733-415893d50f04
     id: focal_point_scale_and_crop
     weight: 1
     data:
       width: 991
       height: 557
       crop_type: focal_point
-  9dd5f2d0-5231-419b-81d3-35f99222c815:
-    uuid: 9dd5f2d0-5231-419b-81d3-35f99222c815
+  c61858a8-6512-4c2a-810a-20054c252a17:
+    uuid: c61858a8-6512-4c2a-810a-20054c252a17
     id: image_convert
     weight: 2
     data:
