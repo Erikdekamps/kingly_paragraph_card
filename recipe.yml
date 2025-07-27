@@ -1,4 +1,3 @@
-# file: recipe.yml
 name: 'Kingly paragraph card'
 type: 'Site'
 description: Configures a Kingly card paragraph.
@@ -10,6 +9,7 @@ install:
   - pathauto
   - lazy
   - options
+  - responsive_image
 
 config:
   strict: false
