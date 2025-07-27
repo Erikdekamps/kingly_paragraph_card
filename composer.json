@@ -1,15 +1,23 @@
 {
-    "name": "erikdekamps/kingly_paragraph_card",
-    "description": "A Drupal recipe that configures a Kingly card paragraph.",
-    "keywords": ["recipe", "Drupal base install", "best practices", "simple install"],
-    "type": "drupal-recipe",
-    "license": "GPL-2.0-or-later",
-    "require": {
-        "drupal/core": "^10.3 || ^11",
-        "drupal/field_group": "^3.0",
-        "drupal/lazy": "^4.0",
-        "drupal/pathauto": "^1.13",
-        "drupal/paragraph_view_mode": "^3.2",
-        "erikdekamps/kingly_page": "dev-main"
-    }
+  "name": "erikdekamps/kingly_paragraph_card",
+  "description": "A Drupal recipe that configures a Kingly card paragraph.",
+  "keywords": [
+    "drupal",
+    "recipe",
+    "paragraph",
+    "card",
+    "sdc",
+    "component"
+  ],
+  "type": "drupal-recipe",
+  "license": "GPL-2.0-or-later",
+  "require": {
+    "drupal/core": "^10.3 || ^11",
+    "drupal/field_group": "^3.0",
+    "drupal/lazy": "^4.0",
+    "drupal/pathauto": "^1.13",
+    "drupal/paragraph_view_mode": "^3.2",
+    "erikdekamps/kingly_page": "dev-main",
+    "erikdekamps/kingly_paragraph_media": "dev-main"
+  }
 }
