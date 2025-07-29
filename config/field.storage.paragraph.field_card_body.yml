@@ -1,5 +1,3 @@
-# Defines the database schema for the new body field.
-# This field will store long, formatted text for the card's content.
 langcode: en
 status: true
 dependencies:

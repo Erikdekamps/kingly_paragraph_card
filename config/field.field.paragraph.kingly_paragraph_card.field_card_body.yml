@@ -1,5 +1,3 @@
-# Attaches the body field to the Kingly Card paragraph type and configures its
-# label, description, and allowed text formats.
 langcode: en
 status: true
 dependencies:

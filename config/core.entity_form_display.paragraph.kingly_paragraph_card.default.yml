@@ -1,6 +1,3 @@
-# Updates the form display for the 'kingly_paragraph_card' bundle.
-# Adds the new body and variant fields, removes the old view_mode field,
-# and organizes the fields for a better editor experience.
 langcode: en
 status: true
 dependencies:

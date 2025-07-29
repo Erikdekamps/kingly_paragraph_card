@@ -1,6 +1,6 @@
 name: 'Kingly paragraph card'
 type: 'Site'
-description: Configures a Kingly card paragraph.
+description: 'Configures a Kingly card paragraph.'
 recipes:
   - kingly_paragraph_media
 

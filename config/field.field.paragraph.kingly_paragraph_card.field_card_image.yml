@@ -1,4 +1,3 @@
-# Updates the field instance to attach the image field to the new 'kingly_paragraph_card' bundle.
 langcode: en
 status: true
 dependencies:
